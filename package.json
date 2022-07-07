@@ -1,0 +1,23 @@
+{
+  "name": "remark-details-simple",
+  "version": "1.0.0",
+  "description": "remark plugin to transform markdown to details/summary blocks",
+  "main": "lib/index.js",
+  "author": "Balthasar Hofer <lebalz@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lebalz/remark-details-simple.git"
+  },
+  "engines": {
+    "node": ">=16.14"
+  },
+  "dependencies": {
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0"
+  }
+}
